@@ -1,10 +1,15 @@
-DOit Portfolio — Perfect Original Scene Edition
+DOIT Portfolio - Mobile Full Monitor FIXED
 
-IMPORTANT:
-- Built directly from the user's latest doit-portfolio(2).html.
-- Original scroll-driven 3D story/scenery code is preserved.
-- No new CSS targets .story, .pin, #stage, .cap, .side, .hud or .tag.
-- No original Three.js scene/camera/scroll JavaScript was modified.
-- The only new feature is the separate Before / During / After lifecycle section.
+Fixes the real clipping cause:
+- resets #mcard from absolute desktop positioning to relative mobile positioning
+- removes top:50% and translateY(-50%) from the mobile monitor card
+- preserves full 900x540 EQ-Alarmer screen
+- keeps MA301+, intensity, S-wave arrival, alarm stage and sending status visible
+- leaves current 3D camera/scenery framing unchanged
+- desktop/laptop unchanged
 
-For GitHub Pages, upload index.html to the repository root.
+GitHub update:
+Replace D:\outputs\index.html
+git add index.html
+git commit -m "Fix full mobile monitor card"
+git push
